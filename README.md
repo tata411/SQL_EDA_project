@@ -1,7 +1,7 @@
 ## Brazilian E-Commerce Public Dataset by Olist
 
 This is my study project on descriptive analysis of the dataset from Kaggle 
-#### Tools: SQL, BigQuery
+#### Tools: SQL, BigQuery, Tableau
 
 ### About DATASET
 
