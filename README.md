@@ -145,8 +145,8 @@ GROUP BY
 ORDER BY
   2 DESC
 ```
-![pic6](https://github.com/tata411/SQL_EDA_project/blob/73722ede75168db58f58b1a5009755e5ba326403/pics/top%20categories.png)
-![pic7](https://github.com/tata411/SQL_EDA_project/blob/73722ede75168db58f58b1a5009755e5ba326403/pics/top%20categories%20(2).png)
+![pic6](https://github.com/tata411/SQL_EDA_project/blob/1913474617206157d2ffcce318f9a76d74f405dc/pics/top%20categories%20(1).png)
+![pic7](https://github.com/tata411/SQL_EDA_project/blob/1913474617206157d2ffcce318f9a76d74f405dc/pics/top%20categories%20(2)%20(1).png)
 #### What is the average order value (AOV) on Olist, and how does this vary by product category or payment method?
 #### AOV = total revenue / total orders
 ```
