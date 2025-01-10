@@ -101,7 +101,7 @@ GROUP BY
 ORDER BY
   1
 ```
-![pic4](https://github.com/tata411/SQL_EDA_project/blob/73722ede75168db58f58b1a5009755e5ba326403/pics/revenue_per_month.png)
+![pic3](https://github.com/tata411/SQL_EDA_project/blob/b4b3063626957a64da2e7771787597691cf947dc/pics/total_revenue%20by%20month.png)
 
 #### Number of orders over time
 ```
