@@ -147,7 +147,7 @@ ORDER BY
 ```
 ![pic6](https://github.com/tata411/SQL_EDA_project/blob/1913474617206157d2ffcce318f9a76d74f405dc/pics/top%20categories%20(1).png)
 ![pic7](https://github.com/tata411/SQL_EDA_project/blob/1913474617206157d2ffcce318f9a76d74f405dc/pics/top%20categories%20(2)%20(1).png)
-#### What is the average order value (AOV) on Olist, and how does this vary by product category or payment method?
+#### What is the average order value (AOV) on Olist?
 #### AOV = total revenue / total orders
 ```
 SELECT
@@ -195,12 +195,12 @@ ORDER BY
 SELECT
   p.product_category_name_english AS product_category,
   ROUND(SUM(pa.payment_value),2) AS total_revenue,
-  --общая выручка
   ROUND(SUM(oi.price)+SUM(oi.freight_value),2) AS total_cost,
   --общая себестоимость
   ROUND(SUM(pa.payment_value)-(SUM(oi.price)+SUM(oi.freight_value)),2) AS total_proft,
   -- общая прибыль
-  ROUND((SUM(pa.payment_value)-(SUM(oi.price)+SUM(oi.freight_value)))/SUM(pa.payment_value)*100,0) profit_margin_percentage
+  ROUND((SUM(pa.payment_value)-(SUM(oi.price)+SUM(oi.freight_value)))/SUM(pa.payment_value)*100,0)
+  AS profit_margin_percentage
 FROM
   payments AS pa
 JOIN
